@@ -2,7 +2,7 @@ import '../styles/main.scss';
 
 
 $(document).ready(function() {
-   //$.getScript("//platform.twitter.com/widgets.js");
+   $.getScript("//platform.twitter.com/widgets.js");
   // var slider = $('.hero-slider');
   //
   // slider.slick({

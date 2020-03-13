@@ -7,17 +7,17 @@ $number-map: (
 );
 
 @each $number-name, $number-value in $number-map {
-  .mt-#{$number-name} { margin-top: #{$number-value}px; }
+  .mt-#{$number-name} { margin-top: #{$number-value}px !important; }
 }
 
 @each $number-name, $number-value in $number-map {
-  .mb-#{$number-name} { margin-bottom: #{$number-value}px; }
+  .mb-#{$number-name} { margin-bottom: #{$number-value}px  !important; }
 }
 
 @each $number-name, $number-value in $number-map {
   .mvertical-#{$number-name} {
-    margin-bottom: #{$number-value}px;
-    margin-top: #{$number-value}px;
+    margin-bottom: #{$number-value}px  !important;
+    margin-top: #{$number-value}px  !important;
   }
 }
 

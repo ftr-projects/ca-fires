@@ -103,8 +103,10 @@
   h3 {
     font-family: "nexa book";
     font-size: 18px;
+    margin-top: 10px;
     @media only screen and (min-width: $screen-sm) {
-      font-size: 20px;
+      font-size: 28px;
+
     }
   }
 
